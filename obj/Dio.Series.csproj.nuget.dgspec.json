@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dio.Series\\Dio.Series.csproj": {}
+    "C:\\Users\\paulo.marcelino\\Desktop\\Dio_Series\\Dio.Series.csproj": {}
   },
   "projects": {
-    "C:\\Dio.Series\\Dio.Series.csproj": {
+    "C:\\Users\\paulo.marcelino\\Desktop\\Dio_Series\\Dio.Series.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dio.Series\\Dio.Series.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.marcelino\\Desktop\\Dio_Series\\Dio.Series.csproj",
         "projectName": "Dio.Series",
-        "projectPath": "C:\\Dio.Series\\Dio.Series.csproj",
-        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Dio.Series\\obj\\",
+        "projectPath": "C:\\Users\\paulo.marcelino\\Desktop\\Dio_Series\\Dio.Series.csproj",
+        "packagesPath": "C:\\Users\\paulo.marcelino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.marcelino\\Desktop\\Dio_Series\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\paulo.marcelino\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

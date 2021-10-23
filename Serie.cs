@@ -1,3 +1,5 @@
+using System;
+
 namespace Dio.Series
 {
     public class Serie : EntidadeBase
@@ -6,6 +8,8 @@ namespace Dio.Series
         private string Titulo {get; set;}
         private string Descricao {get; set;}
         private int Ano{get; set;}
+
+        private bool Exluido{get; set;}
 
 
         //Metodo
@@ -16,15 +20,16 @@ namespace Dio.Series
             this.Titulo = Titulo;
             this.Descricao = Descricao;
             this.Ano = Ano;
+            this.Exluido = false;
         }
         public override string ToString()
         {
             // Environment.NewLine https://docs.microsoft.com/en-us/dotnet/api/system.environment.newline?view=netcore-3.1
-            string return = " ";
-            return += "Genero: " + this.genero + Environmet.NewLine;
-            return += "Titulo: " + this.Titulo + Environment.NewLine;
-            return += "Descrição: " + this.Descricao + Environment.NewLinw;
-            return += "Ano de inicio: " + this.Ano;
+            String retorno = "";
+            retorno += "Genero: " + this.genero + Environment.NewLine;
+            retorno += "Titulo: " + this.Titulo + Environment.NewLine;
+            retorno += "Descrição: " + this.Descricao + Environment.NewLine;
+            retorno += "Ano de inicio: " + this.Ano;
             return retorno;
         }
 
@@ -32,9 +37,13 @@ namespace Dio.Series
         {
             return this.Titulo;
         }
-        internaç int retornaid()
+        public int retornaid()
         {
             return this.id;
+        }
+        public void Excluir()
+        {
+            this.Exluido = true;
         }
     }
 }
